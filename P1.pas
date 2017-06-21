@@ -2,7 +2,7 @@ Program Vvod;
 
 Var 
 
-  n1, n2, c:Integer;
+  n1, n2, c, g:Integer;
 
   X:Real;
 
@@ -19,5 +19,9 @@ Readln(n2);
 c:=n1+n2;
 
 Write ('Сумма равна ',c);
+
+g:=n1*2;
+
+Write ('; Первое чисо, умноженоое на 2 равно ',g);
 
 End.
